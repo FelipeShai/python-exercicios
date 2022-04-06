@@ -13,3 +13,4 @@ if cupom.upper() == "NIVER10":
     print("O seu cupom de 10% foi aplicado, o valor atual é: {}".format(valorfinal))
 else:
     print("CUPOM INVÁLIDO")
+    

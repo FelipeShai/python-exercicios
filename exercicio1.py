@@ -11,4 +11,4 @@ nota = float(nota)
 if nota > 8.5:
     print("PARABÉNS! ENVIANDO CONVITE")
 else:
-    print("Infelizmente, você não foi aprovado.")
+    print("Infelizmente, você não foi aprovado para a visita de campo.")
