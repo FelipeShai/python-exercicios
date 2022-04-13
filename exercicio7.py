@@ -10,6 +10,5 @@
 minutos = int(input("Digite o valor dos minutos atuais."))
 resultado = 1
 for iteracao in range (1,minutos + 1):
-    resultado *= iteracao
+    resultado = resultado * iteracao
 print("A senha é: LIBERDADE{}".format(resultado))
-

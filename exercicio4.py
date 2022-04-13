@@ -11,9 +11,8 @@
 #de assinatura:
 
 tipoassinatura = str(input("Digite, por favor, em mínusculo o tipo da sua assinatura: "))
-#if tipoassinatura.lower() != "basic" and tipoassinatura.lower() != "silver" and tipoassinatura.lower() != "gold" and tipoassinatura.lower() != "platinum":
-#    print("Plano de assinatura inválido, lembre-se que nossos planos são o basic, silver, gold ou platinum.")
-    
+if tipoassinatura.lower() != "basic" and tipoassinatura.lower() != "silver" and tipoassinatura.lower() != "gold" and tipoassinatura.lower() != "platinum":
+    print("Plano de assinatura inválido, lembre-se que nossos planos são o basic, silver, gold ou platinum.")
 faturamentoanual = float(input("Digite o valor do seu faturamento anual: "))
 if tipoassinatura.lower() == "basic":
     bonus = faturamentoanual * 0.3
